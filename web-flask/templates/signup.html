@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+    <!--  block title start -->
+    {% block title %}
+    Signup
+    {% endblock %}
+    <!-- block title end -->
+
+{% block content %}
+<div class="container" style="margin-top:164px; margin-bottom:40px;">
+    <div class="row cl-12 col-md-8 col-lg-6 m-auto ">
+        <div class="card bg-light">
+            <div class="card-body">
+                <form action="" class="" >
+                    <label for="nm" class="" >Name:</label>
+                    <input type="text" name="name" id="nm" class="form-control my-3 py-2" placeholder="Enter Your Name">
+                    <label for="mail" class="" >E-mail:</label>
+                    <input type="text" name="name" id="mail" class="form-control my-3 py-2" placeholder="Enter Your E-mail">
+                    <label for="passwd1" class="" >Password:</label>
+                    <input type="password" name="password1" id="passwd1" class="form-control my-3 py-2" placeholder="Enter Your Password">
+                    <label for="passwd2" class="" >Confirm Password:</label>
+                    <input type="password" name="password2" id="passwd2" class="form-control my-3 py-2" placeholder="Confirm Your Password">
+                    
+                    <div class="text-center">
+                        <button class="btn btn-success btn-lg btn-block">Register</button>
+                        <a class="nav-link" href="signin">Already have an account?</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+{% endblock %}

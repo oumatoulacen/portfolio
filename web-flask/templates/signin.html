@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+    <!--  block title start -->
+    {% block title %}
+    Signin
+    {% endblock %}
+    <!-- block title end -->
+
+{% block content %}
+<div class="container" style="margin-top:164px; margin-bottom:40px;">
+    <div class="row cl-12 col-md-8 col-lg-6 m-auto ">
+        <div class="card bg-light">
+            <div class="card-body">
+                <form action="" class="" >
+                    <input type="text" name="name" id="nm" class="form-control my-3 py-2" placeholder="Enter your email">
+                    <input type="password" name="password" id="passwd" class="form-control my-3 py-2" placeholder="Enter your password">
+                    <div class="text-center">
+                        <button class="btn">Login</button>
+                        <a class="nav-link" href="signup">Don't have an account?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
