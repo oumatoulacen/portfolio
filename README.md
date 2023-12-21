@@ -14,7 +14,7 @@ Installation:
     clone the repo [portfolio](https://github.com/oumatoulacen/portfolio)
     
 ##Usage:
-    run the gunicorn or falsk app in  [flask app](https://github.com/oumatoulacen/portfolio/web-flask/app)
+    run the gunicorn or falsk app in  [flask app](https://github.com/oumatoulacen/portfolio/blob/main/web-flask/app.py)
 
 ##Contributing:
   Oumatou Lahcen
